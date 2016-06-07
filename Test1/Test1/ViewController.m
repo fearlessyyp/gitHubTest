@@ -24,6 +24,13 @@
     NSLog(@"6");
     
     NSLog(@"new1");
+    
+    
+    
+    
+    
+    
+    NSLog(@"new1");
 }
 
 @end

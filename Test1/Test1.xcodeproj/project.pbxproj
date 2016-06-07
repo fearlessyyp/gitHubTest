@@ -13,6 +13,7 @@
 		D6CC9C521D06CEDC00FBEEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC9C501D06CEDC00FBEEAD /* Main.storyboard */; };
 		D6CC9C541D06CEDC00FBEEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CC9C531D06CEDC00FBEEAD /* Assets.xcassets */; };
 		D6CC9C571D06CEDC00FBEEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC9C551D06CEDC00FBEEAD /* LaunchScreen.storyboard */; };
+		D6CC9C631D06D2D400FBEEAD /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC9C621D06D2D400FBEEAD /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D6CC9C531D06CEDC00FBEEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CC9C561D06CEDC00FBEEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6CC9C581D06CEDC00FBEEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CC9C611D06D2D400FBEEAD /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		D6CC9C621D06D2D400FBEEAD /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D6CC9C4B1D06CEDC00FBEEAD /* AppDelegate.m */,
 				D6CC9C4D1D06CEDC00FBEEAD /* ViewController.h */,
 				D6CC9C4E1D06CEDC00FBEEAD /* ViewController.m */,
+				D6CC9C611D06D2D400FBEEAD /* BViewController.h */,
+				D6CC9C621D06D2D400FBEEAD /* BViewController.m */,
 				D6CC9C501D06CEDC00FBEEAD /* Main.storyboard */,
 				D6CC9C531D06CEDC00FBEEAD /* Assets.xcassets */,
 				D6CC9C551D06CEDC00FBEEAD /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6CC9C4F1D06CEDC00FBEEAD /* ViewController.m in Sources */,
+				D6CC9C631D06D2D400FBEEAD /* BViewController.m in Sources */,
 				D6CC9C4C1D06CEDC00FBEEAD /* AppDelegate.m in Sources */,
 				D6CC9C491D06CEDC00FBEEAD /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				D6CC9C5D1D06CEDC00FBEEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

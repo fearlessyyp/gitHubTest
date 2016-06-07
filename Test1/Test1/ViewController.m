@@ -19,6 +19,8 @@
     NSLog(@"1");
     NSLog(@"2");
     NSLog(@"3");
+    
+    NSLog(@"new1");
 }
 
 @end
